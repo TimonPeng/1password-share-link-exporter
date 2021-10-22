@@ -1,0 +1,10 @@
+{
+  "name": "@1password/contact-service-types",
+  "version": "1.1.2",
+  "main": "./dist/index.js",
+  "scripts": {},
+  "dependencies": {
+    "@mojotech/json-type-validation": "^3.1.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,25 @@
+{
+  "generalConfiguration.sortOnBeforeSave": true,
+  "importStringConfiguration.tabSize": 2,
+  "importStringConfiguration.tabType": "space",
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 10,
+      "disableSort": true
+    },
+    {
+      "regex": "^@",
+      "orderLevel": 30
+    },
+    {
+      "regex": "^../",
+      "orderLevel": 40
+    },
+    {
+      "regex": "^./",
+      "orderLevel": 50
+    }
+  ]
+}
